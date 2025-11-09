@@ -1,3 +1,29 @@
 body {
     font-family: "Poppins", sans-serif;
+    background-color: #e5e5f7;
+    opacity: 0.8;
+    background-image: radial-gradient(#444cf7 0.5px, #e5e5f7 0.5px);
+    background-size: 10px 10px;
+}
+
+:root {
+    --color-primario: #98CE00;
+    --color-title: #001011;
+    --align-title: left;
+    --padding-container: 100px 0;
+    --with-container: 90%;
+    --max-width-container: 1200px;
+    --color-btn: #98CE00;
+    --text-btn: #757780;
+    --padding-btn: 20px 35px;
+    --height-shape: 18em;
+}
+
+
+.container {
+    width: var(--with-container);
+    max-width: var(--max-width-container);
+    padding: var(--padding-container);
+    margin: 0 auto;
+    overflow: hidden;
 }
